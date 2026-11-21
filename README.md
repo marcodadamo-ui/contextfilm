@@ -2,10 +2,11 @@
 
 Statische Website von Contextfilm (HTML, ohne Build-Schritt), gehostet über GitHub Pages mit IONOS-Domain.
 
-## Vor dem Livegang
-1. **Impressum** (`impressum.html`) und **Datenschutz** (`datenschutz.html`): alle Angaben in `[eckigen Klammern]` ausfüllen und die orange Hinweisbox löschen. Beides rechtlich prüfen lassen.
-2. **Kontaktformular**: In Notion die Datenbank „Contextfilm Kontaktanfragen“ → Ansicht „Website-Formular“ → Teilen → „Jeder mit dem Link kann ausfüllen“. Den Link in `index.html` statt `https://DEIN-NOTION-FORMULAR-LINK` einsetzen.
-3. **Schriftarten**: Google Fonts werden extern geladen. Besser lokal einbinden (siehe Hinweis in `datenschutz.html`).
+## Vor dem Livegang (Stand 21.11.2026)
+1. **Impressum** ist ausgefüllt (Anschrift, E-Mail, Termin, Kleinunternehmer § 19 UStG). Optional: Telefonnummer ergänzen, sobald die Geschäftsnummer feststeht.
+2. **Datenschutz** ist ausgefüllt (GitHub Pages, IONOS, Calendly, Notion, ElevenLabs). Vor Livegang einmal rechtlich prüfen lassen und den DPF-Status der Anbieter auf dataprivacyframework.gov bestätigen.
+3. **Digitale Assistenten**: Impressum, Datenschutz und FAQ sagen offen, dass auch das telefonische Beratungsgespräch ein digitaler Assistent führt und ein Vertrag erst mit Bestätigung des schriftlichen Angebots entsteht.
+4. **GitHub Pages** einschalten (siehe unten) und bei IONOS die DNS-Einträge setzen.
 
 ## GitHub Pages
 Settings → Pages → Source: „Deploy from a branch“ → diesen Branch, Ordner `/ (root)`.
